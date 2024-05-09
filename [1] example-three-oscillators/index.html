@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Audio API Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="oscillator-container">
+            <h2>Oscillator 1</h2>
+            <button class="playButton">Play Sound</button>
+            <label for="gainFader1">Gain</label>
+            <input type="range" id="gainFader1" class="gainFader" min="0" max="1" step="0.01" value="0.5">
+            <br>
+            <label for="detuneFader1">Detune</label>
+            <input type="range" id="detuneFader1" class="detuneFader" min="-100" max="100" step="1" value="0">
+        </div>
+        
+        <div class="oscillator-container">
+            <h2>Oscillator 2</h2>
+            <button class="playButton">Play Sound</button>
+            <label for="gainFader2">Gain</label>
+            <input type="range" id="gainFader2" class="gainFader" min="0" max="1" step="0.01" value="0.5">
+            <br>
+            <label for="detuneFader2">Detune</label>
+            <input type="range" id="detuneFader2" class="detuneFader" min="-100" max="100" step="1" value="0">
+        </div>
+        
+        <div class="oscillator-container">
+            <h2>Oscillator 3</h2>
+            <button class="playButton">Play Sound</button>
+            <label for="gainFader3">Gain</label>
+            <input type="range" id="gainFader3" class="gainFader" min="0" max="1" step="0.01" value="0.5">
+            <br>
+            <label for="detuneFader3">Detune</label>
+            <input type="range" id="detuneFader3" class="detuneFader" min="-100" max="100" step="1" value="0">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
